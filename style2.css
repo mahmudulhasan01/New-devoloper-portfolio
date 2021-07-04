@@ -1,5 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{ 
+    font-size: 50px;
 }
 .name-color{
     color: orange;
@@ -11,3 +16,16 @@ body{
    padding: 10px 40px;
    border-radius: 5px;
 }
+section{
+    display: flex;
+   
+}
+.div-class{ width: 50%;
+    padding-left: 5%;  
+    
+}
+.div-class img{
+    width: 80%;
+    padding-left: 6%;
+}
+
