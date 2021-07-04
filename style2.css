@@ -7,6 +7,10 @@ body{
 h1{ 
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+
 .name-color{
     color: orange;
 }
@@ -17,7 +21,7 @@ h1{
    padding: 10px 40px;
    border-radius: 5px;
 }
-section{
+.section-aling{
     display: flex;
     margin-bottom: 100px;
    
@@ -34,5 +38,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.background-img{ 
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat; 
+    
+    
+   
+}
+.expo-border{
+    margin: 1px 50px 80px 80px;
+    box-shadow: 10px 2px 40px 10px gray;
+ 
+}
+
+#expo-side-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 50;
+}
+#expo-side-border1{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 50;
+}
+
+footer{
+    text-align: center;
 }
 
